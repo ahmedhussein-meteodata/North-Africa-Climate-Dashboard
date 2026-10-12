@@ -6,7 +6,7 @@ An executive-level climate analytics dashboard built using **Microsoft Excel** t
 
 ## 📌 Dashboard Preview
 
-![North Africa Climate Dashboard](dashboard_preview.png)
+![North Africa Climate Dashboard](North-Africa-Climate-Dashboard.png)
 
 ---
 
