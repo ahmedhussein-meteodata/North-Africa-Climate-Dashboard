@@ -93,9 +93,3 @@ Before constructing the analytical dashboard, a rigorous data transformation pip
 * **GitHub Profile:** [github.com/ahmedhussein-meteodata](https://github.com/ahmedhussein-meteodata)
 * **Kaggle Profile:** [kaggle.com/ahmedhussein77731](https://www.kaggle.com/ahmedhussein77731)
 * **LinkedIn Profile:** [linkedin.com/in/ahmed-hussein-meteodata](https://www.linkedin.com/in/ahmed-hussein-meteodata)
-
-
-
-
-
-
