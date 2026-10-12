@@ -33,7 +33,7 @@ Before constructing the analytical dashboard, a rigorous data transformation pip
 
 ## 📌 Dashboard Preview
 
-![North Africa Climate Dashboard](dashboard_preview.png)
+![North Africa Climate Dashboard](North-Africa-Climate-Dashboard.png)
 
 ---
 
