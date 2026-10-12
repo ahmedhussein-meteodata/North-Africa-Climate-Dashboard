@@ -1,30 +1,49 @@
 # 🌤️ North Africa Interactive Climate Analytics Dashboard
 
-An executive-level climate analytics dashboard built using **Microsoft Excel** to analyze synoptic weather metrics, aerosol transport patterns, and spatial climate dynamics across North African countries (Egypt, Libya, Sudan, Algeria, Tunisia, Morocco, Mauritania).
+An end-to-end meteorological and climate data analytics project built exclusively in **Microsoft Excel**. This project transforms raw historical weather observations across North Africa into an interactive, dynamic decision-support dashboard.
 
 ---
 
-## 📌 Dashboard Preview
+## 📌 Executive Summary & Project Motivation
 
-![North Africa Climate Dashboard](North-Africa-Climate-Dashboard.png)
+Atmospheric conditions across North Africa are governed by complex synoptic features, ranging from Saharan dust transport and atmospheric pressure gradients to marine-inland thermal contrasts. Analyzing these parameters is crucial for weather forecasting, climate monitoring, and regional environmental impact assessments.
+
+The main objective of this project is to clean, process, and visualize regional weather observation data, enabling researchers and data analysts to extract instant climate insights per country and weather phenomenon.
 
 ---
 
 ## 📊 Project Scope & Dataset Summary
 
-* **Total Records Analyzed:** 5,784 regional weather logs.
+* **Total Records Analyzed:** 5,784 regional weather logs across North Africa (Egypt, Libya, Tunisia, Algeria, Morocco, Mauritania).
 * **Core Metrics Tracked:** Average Temperature (°C), Visibility (km), Wind Speed (km/h), Max Wind Gusts (km/h), Atmospheric Pressure (mb), and Relative Humidity (%).
-* **Analytical Focus:** Thermal spatial gradients, wind-driven visibility suppression, and synoptic conditions distribution across North Africa.
+* **Analytical Focus:** Thermal spatial gradients, wind-driven visibility suppression, and synoptic pressure distribution across North Africa.
+
+---
+
+## 🧹 Data Cleaning & Preparation Pipeline
+
+Before constructing the analytical dashboard, a rigorous data transformation pipeline was executed within Excel:
+
+1. **Regional Filtering:** Applied multi-column wildcard and criteria filtering to scope the raw dataset exclusively to North African stations.
+2. **Handling Missing Values:** Cleaned incomplete records and removed empty/blank category labels to prevent chart distortion.
+3. **Data Type Standardization:** Converted raw text metrics into proper numerical formats (Single-Decimal accuracy) for temperatures, pressure, and visibility.
+4. **Calculated KPI Logic:** Developed dynamic formulas to generate summary aggregates for average temperatures, visibility ranges, and maximum wind gust thresholds.
+
+---
+
+## 📌 Dashboard Preview
+
+![North Africa Climate Dashboard](dashboard_preview.png)
 
 ---
 
 ## 📊 Visualizations Breakdown & Synoptic Analysis
 
 ### 1. Average Temperature by Country (°C) — [Horizontal Bar Chart]
-* **Structure:** Horizontal bar chart ranking North African nations by mean thermal conditions.
-* **Synoptic Insight:** Highlights strong continental-desert heating in inland regions (e.g., Sudan averaging 29.9°C, Libya 26.4°C) compared to coastal-moderated Mediterranean/Atlantic zones (Morocco 18.5°C, Tunisia 22.0°C).
+- **Structure:** Horizontal bar chart ranking North African nations by mean thermal conditions.
+- **Synoptic Insight:** Highlights strong continental-desert heating in inland regions (e.g., inland Saharan zones averaging up to ~29.9°C, Libya 26.4°C) compared to coastal-moderated Mediterranean/Atlantic zones (Morocco 18.5°C, Tunisia 22.0°C).
 
-### 2. Wind Speed (kph) vs. Pressure (mb) by Country — [Dual-Axis Combo Chart]
+### 2. Wind Speed (km/h) vs. Pressure (mb) by Country — [Dual-Axis Combo Chart]
 * **Structure:** Combo chart tracking average wind speed bars alongside an atmospheric pressure trendline.
 * **Synoptic Insight:** Demonstrates classic baroclinic dynamics; lower surface pressures (~1010 mb) strongly correlate with elevated wind speeds, identifying active Saharan low-pressure cyclone tracks.
 
